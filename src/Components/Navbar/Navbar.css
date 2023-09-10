@@ -1,0 +1,25 @@
+
+
+.Navbar{
+    background-color: #154f59;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.Navbar p{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.Navbar img{
+    width: 40px;
+}
+
+.Navbar a{
+    font-size: 1.2em;
+    text-decoration: none;
+    
+    color: #fff;
+}

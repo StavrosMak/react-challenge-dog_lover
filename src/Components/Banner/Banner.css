@@ -1,0 +1,99 @@
+ 
+.Banner {
+    position: relative;
+    min-height: 70vh;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.Banner::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height:90%;
+    background-image: url("../../Assets/Images/imageBck2.jpg");
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+
+.Banner-content {
+    /* center */
+    position: absolute;
+    top: 72%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    z-index: 1;
+    overflow-wrap: break-word;
+    width: 90%;
+    max-width: 60vw;
+}
+
+
+
+.Banner-content button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    transition: background-color 0.2s ease;
+}
+ 
+  .Banner-content button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    transition: background-color 0.2s ease;
+  }
+  
+  .Banner-content button:hover {
+    background-color: #fff;
+    color: black;
+  }
+  
+  
+  @media (max-width: 900px) {
+    .Banner {
+       min-height: 100vw;
+      margin-bottom: 6em;
+    }
+  
+    .Banner-content {
+      max-width: 100%;
+      max-width: 100%;
+      text-align: center;
+      top: 60%;
+      padding: 1em;
+      margin: auto;
+      text-shadow: 1px 1px black;
+    }
+  
+    .Banner-content h1 {
+      font-size: 2rem;
+    }
+  
+    .Banner-content p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .Banner-content button {
+      font-size: 1rem;
+      padding: 0.8rem 1.6rem;
+    }
+  }  

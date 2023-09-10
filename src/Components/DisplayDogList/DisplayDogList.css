@@ -1,0 +1,52 @@
+.DisplayDogList {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #f0f0f0;
+
+}
+
+.second-row .DisplayRandomImages {
+    min-height: 0;
+}
+
+.DogListContainer {
+    border: 2px solid #154F59;
+    /* border-radius: 20px; */
+    min-height: 950px;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em;
+}
+
+.first-row {
+    border-bottom: 1px solid #154F59;
+    padding: 1em;
+    padding-top: 1em;
+    display: flex;
+    justify-self: flex-start;
+    color: #fff;
+    justify-content: space-around;
+    gap: 100px;
+    width: 100%;
+}
+
+.second-row {
+    height: 100%;
+    /* border: 1px solid red; */
+    /* background-color: red; */
+    min-height: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100%; */
+    padding: 1em;
+    gap: 1em;
+    width: 100%;
+}

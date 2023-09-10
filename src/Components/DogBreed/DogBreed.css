@@ -1,0 +1,49 @@
+.DogBreed {
+    display: flex;
+    background-color: #154F59;
+    color: #fff;
+    max-width: 450px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+
+.first_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+}
+
+
+.second_row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.DogBreedHeader {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.button {
+    width: 100%;
+    color: #fff;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    width: max-content;
+    background-color: black;
+    padding: 1em;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Kalam&display=swap');
+
+.DisplayRandomImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 1em auto;
+    max-width: 2500px;
+    width: 80%;
+}
+
+
+.DisplayRandomImages .randomDogsHeader {
+    margin-bottom: 2em;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    font-family: 'Courgette', cursive;
+
+}
+
+.dog-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+

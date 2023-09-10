@@ -1,0 +1,34 @@
+.SubBreed {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 1400px;
+    width: 100%;
+    min-height: 800px;
+    height: 100%;
+    border-radius: 20px;
+    margin: 80px auto;
+    background-color: #154f59;
+}
+
+.subBreedsContainerWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subBreedsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.subBreedsContainer span {
+    color: #fff;
+    font-size: 1.5em;
+    margin: .5em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: 'Courgette', cursive;
+}
